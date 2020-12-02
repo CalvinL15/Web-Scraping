@@ -10,7 +10,7 @@ How to run:
 - Then, you will be asked input [url] and [max_urls]
 - [url]: the target website, [max_urls]: maximum number of links to crawl
 
-Results will be then printed in terminal and also written in new txt files:
+Results will be then printed in the terminal and also written in new txt files:
 - internal links will be saved in internal_links.txt, and external links will be saved in external_links.txt
 
 
