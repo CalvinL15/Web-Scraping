@@ -42,10 +42,8 @@ if __name__ == "__main__":
 				if(is_valid(line)):
 					getElements(line, count)
 				else:
-					filename = "page" + str(count) + ".txt"
-					file = open(filename, "w")
-					file.write("Invalid format!")
-					file.close()
+					count -= 1
+					continue
 			if not line:
 				break
 		f.close()
