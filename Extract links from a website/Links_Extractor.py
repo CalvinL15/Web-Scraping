@@ -1,9 +1,7 @@
-import re
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse, urljoin
 import colorama
 import requests
-import random
 
 colorama.init()
 GREEN = colorama.Fore.GREEN
