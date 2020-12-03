@@ -34,17 +34,13 @@ if __name__ == "__main__":
 		if not os.path.exists("result"):
 			os.mkdir("result")
 		f = open(sys.argv[1], "r")
+		url_list = f.read().splitlines()
 		count = 0
-		while True:
+		for url in url_list:
 			count += 1	
-			line = f.readline()
-			if line:
-				if(is_valid(line)):
-					getElements(line, count)
-				else:
-					count -= 1
-					continue
-			if not line:
-				break
+			if(is_valid(url)):
+				getElements(line, count)
+			else:
+				count -= 1
 		f.close()
 		print("Task completed!")
