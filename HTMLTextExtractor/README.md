@@ -1,7 +1,7 @@
 # README
 
 Requirements to run the code: 
-- python3 with the modules bs4, requests, colorama, and urllib installed.
+- python3 with the modules bs4, requests, and urllib installed.
 
 How to run:
 - Use this command: python3 "TextExtractor.py" "argv2"
