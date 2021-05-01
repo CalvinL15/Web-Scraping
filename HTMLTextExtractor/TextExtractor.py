@@ -9,9 +9,9 @@ def getElements(url, count):
 	html_page = req.content
 	soup = BeautifulSoup(html_page, 'html.parser')
 	if count != 0:
-		filename = "result//page" + str(count) + ".txt"
+		filename = "result/page" + str(count) + ".txt"
 	else:
-		filename = "result//page" + ".txt"	
+		filename = "result/page" + ".txt"	
 	f = open(filename, "w")
 	f.write(str(soup.prettify()))
 	f.close()
