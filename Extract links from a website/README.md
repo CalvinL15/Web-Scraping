@@ -1,7 +1,5 @@
 # README
 
-This code is based on: https://www.thepythoncode.com/article/extract-all-website-links-python
-
 Requirements to run the code: 
 - python3 with the modules bs4, requests, colorama, and urllib installed.
 
