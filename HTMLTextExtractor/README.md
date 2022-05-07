@@ -1,5 +1,3 @@
-# README
-
 Requirements to run the code: 
 - python3 with the modules bs4, requests, and urllib installed.
 
