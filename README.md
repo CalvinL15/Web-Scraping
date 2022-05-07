@@ -1,2 +1,2 @@
 # Web-Scraping
-## Repository dedicated to codes related to web scraping.
+Repository dedicated to codes related to web scraping.
